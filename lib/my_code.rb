@@ -16,9 +16,9 @@ end
     i = 1
   else 
     a = source_array[0]
-    
+    i = 0
   end 
-  i = 0 
+  
   while i < source_array.length do 
     a = yield(a, source_array[i])
     i += 1 
