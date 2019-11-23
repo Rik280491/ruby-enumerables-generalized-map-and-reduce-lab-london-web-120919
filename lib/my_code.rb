@@ -15,6 +15,7 @@ end
     a = starting_point
   else 
     a = source_array[0]
+    i = 1
   end 
   i = 0 
   while i < source_array.length do 
